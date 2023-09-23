@@ -14,6 +14,7 @@ export default function Header() {
             <div className="banner">
                 <SliderBanner />
                 <SliderBanner />
+
             </div>
             <header className='header'>
                 <div className="titulo">

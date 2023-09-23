@@ -47,6 +47,22 @@
  
 }
 
+@media (width > 1000px){
+    .slider-baner{
+        gap: 200px;
+        margin-right: 200px;
+    }
+
+}
+
+@media (width > 700px){
+    .slider-baner{
+        gap: 100px;
+        margin-right: 100px;
+    }
+
+}
+
 @keyframes auto-scroll {
     0% {
         transform: translateX(0);
