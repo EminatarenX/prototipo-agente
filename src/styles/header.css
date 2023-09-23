@@ -43,7 +43,7 @@
 .slider-baner{
     display: flex;
     gap: 15px;
-    animation: 20s auto-scroll infinite linear;
+    animation: 40s auto-scroll infinite linear;
  
 }
 
