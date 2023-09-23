@@ -1,0 +1,127 @@
+.banner {
+    display: flex;
+    position: relative;
+    background-color: #151414;
+    gap: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.titulo{
+    background-color: rgb(220, 125, 2);
+    color: #fff;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+
+.titulo h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+
+
+.titulo-icono{
+    background-color: orange;
+    padding: 10px 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.titulo-icono svg {
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+}
+
+.slider-baner{
+    display: flex;
+    gap: 15px;
+    animation: 20s auto-scroll infinite linear;
+ 
+}
+
+@keyframes auto-scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.contenedor-info-banner{
+    display: flex;
+    margin: 15px 0px 15px 15px;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.contenedor-info-banner a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.icon-nav {
+    width: 20px;
+}
+
+.header {
+    height: 80px;
+    line-height: 60px;
+    padding: 0 20px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-lista{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+nav.navegacion {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    background-color: #0f1019;
+    height: 100vh;
+    width: 50%;
+    padding-top: 100px;
+    animation: entrada 1s;
+
+}
+
+.nav-boton {
+    background-color: transparent;
+    border: none;
+    color: #f8f8f8;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    margin-top: 20px;
+}
+
+.nav-boton:hover {
+    scale: 1.2;
+    transition: all .2s ease;
+}
+

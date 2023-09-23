@@ -1,0 +1,14 @@
+.imagen-agente{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.contenedor-imagen{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
